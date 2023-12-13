@@ -15,7 +15,7 @@ st.set_page_config(
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "style.css"
 resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "Profile Picture.png" 
+profile_pic = "https://github.com/euclideands/nabhan-nabilah-portofolio/blob/main/assets/Profile%20Picture.png?raw=true" 
 
 # --- GENERAL SETTINGS ---
 NAME = "Nabhan Nabilah"
@@ -37,12 +37,11 @@ LOGO_IMAGES = {
     "X": "https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Twitter_white.png?raw=true"
 }
 
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
-profile_pic = Image.open(profile_pic)
 
 def main():
     a1, a2= st. columns((2,8))
