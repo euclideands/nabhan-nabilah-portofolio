@@ -113,9 +113,9 @@ def main():
         st.markdown('<div class="profile">Core Team GDSC UNNES 2023 - Academy Division - ML Path</div>', unsafe_allow_html=True)
         
         st.markdown('''<div class="profile"><p style="margin-bottom: 0;">Assistant Product Database Intern at BLOOM Outdoor Möbel</p>
-                    <a href="https://github.com/euclideands/Projects/blob/main/Nabhan%20Portofolio/assets/bloom_intern.pdf" target="_blank">See certificate</a></div>''', unsafe_allow_html=True)
+                    <a href="https://github.com/euclideands/nabhan-nabilah-portofolio/blob/main/assets/bloom_intern.pdf" target="_blank">See certificate</a></div>''', unsafe_allow_html=True)
         st.markdown('''<div class="profile"><p style="margin-bottom: 0;">Machine Learning Student at Bangkit Academy</p>
-                    <a href="https://github.com/euclideands/Projects/blob/main/Nabhan%20Portofolio/assets/Bangkit_cert.pdf" target="_blank">See certificate</a></div>''', unsafe_allow_html=True)
+                    <a href="https://github.com/euclideands/nabhan-nabilah-portofolio/blob/main/assets/Bangkit_cert.pdf" target="_blank">See certificate</a></div>''', unsafe_allow_html=True)
     
     st.header("")    
     st.markdown('<div><h3>Project Portofolio 🗂️</h3></div>', unsafe_allow_html=True)
