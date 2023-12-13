@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+
+* {font-family: 'Readex Pro';}
+
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #503380 !important;
+    text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* #MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;} */
+
+/* .image-container {
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+} */
+
+.career {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 25px;
+    border-radius: 16px;
+    /* background-color: #0E1117; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 25px;
+    border-radius: 16px;
+    /* background-color: #0E1117; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-1 {
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 25px;
+    padding-bottom: 50px;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-2 {
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 25px;
+    padding-bottom: 244px;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.metric-container {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    text-align: left;
+    font-size: 20px;
+    /* font-weight: lighter; */
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #0E1117;
+    border: solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: 180px;
+}
+
+.metric-container:hover {
+    color: #503380 !important;
+    text-decoration: none;
+}
+/* .metric-container {
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFF;
+} */
+
+.metric-container-2 {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    text-align: left;
+    font-size: 20px;
+    /* font-weight: lighter; */
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #131720;;
+    border: solid #2f3239;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: 180px;
+}
+
+.metric-container-2:hover {
+    color: #503380 !important;
+    text-decoration: none;
+}
