@@ -10,8 +10,6 @@ st.set_page_config(
     page_icon="	:milky_way:"
 )
 
-base="dark"
-primaryColor="#503380"
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -52,8 +50,7 @@ def main():
     with a1:
         st.write("")
         st.write("")
-        image_path = "https://github.com/euclideands/Projects/blob/main/Nabhan%20Portofolio/Profile%20Picture.png?raw=true"  # Replace with the actual path or URL of your image
-        st.image(image_path, 
+        st.image(profile_pic, 
                 #  caption='Your Image Caption', 
                  width = 180)
                
